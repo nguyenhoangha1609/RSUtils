@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "RSUtils"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Custom library"
   spec.requires_arc = true
 
@@ -15,7 +15,7 @@ Manager Custom library
   spec.author       = { "Nguyễn Hà" => "nguyenhoangha.cntt.hp@gmail.com" }
 
   spec.platform     = :ios
-  spec.ios.deployment_target = "12.1"
+  spec.ios.deployment_target = "13.0"
   spec.swift_version = "4.2"
 
   spec.source       = { :git => "https://github.com/nguyenhoangha1609/RSUtils.git", :tag => "#{spec.version}" }
