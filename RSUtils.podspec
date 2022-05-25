@@ -19,6 +19,6 @@ Manager Custom library
   spec.swift_version = "4.2"
 
   spec.source       = { :git => "https://github.com/nguyenhoangha1609/RSUtils.git", :tag => "#{spec.version}" }
-  spec.source_files  = "RSUtils/**/*.{h,m,swift}"
+  spec.source_files  = "RSUtils.swift}"
 
 end
