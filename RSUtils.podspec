@@ -11,7 +11,7 @@ Manager Custom library
                    DESC
 
   spec.homepage     = "https://github.com/nguyenhoangha1609/RSUtils"
-  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "Nguyễn Hà" => "nguyenhoangha.cntt.hp@gmail.com" }
 
   spec.platform     = :ios
