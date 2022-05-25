@@ -15,7 +15,7 @@ Manager Custom library
   spec.author       = { "Nguyễn Hà" => "nguyenhoangha.cntt.hp@gmail.com" }
 
   spec.platform     = :ios
-  spec.ios.deployment_target = "13.0"
+  spec.ios.deployment_target = "12.0"
   spec.swift_version = "4.0"
 
   spec.source       = { :git => "https://github.com/nguyenhoangha1609/RSUtils.git", :tag => "#{spec.version}" }
