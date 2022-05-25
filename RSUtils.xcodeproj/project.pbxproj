@@ -16,6 +16,7 @@
 		18439B76283CEA6300F45FE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18439B74283CEA6300F45FE5 /* Main.storyboard */; };
 		18439B78283CEA6400F45FE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18439B77283CEA6400F45FE5 /* Assets.xcassets */; };
 		18439B7B283CEA6400F45FE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18439B79283CEA6400F45FE5 /* LaunchScreen.storyboard */; };
+		18439B81283DB87000F45FE5 /* RSUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18439B80283DB87000F45FE5 /* RSUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		18439B77283CEA6400F45FE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18439B7A283CEA6400F45FE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18439B7C283CEA6400F45FE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18439B80283DB87000F45FE5 /* RSUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				18439B3B283CE90000F45FE5 /* RSUtils.h */,
+				18439B80283DB87000F45FE5 /* RSUtils.swift */,
 			);
 			path = RSUtils;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				TargetAttributes = {
 					18439B37283CE90000F45FE5 = {
 						CreatedOnToolsVersion = 13.3.1;
+						LastSwiftMigration = 1330;
 					};
 					18439B3F283CE90100F45FE5 = {
 						CreatedOnToolsVersion = 13.3.1;
@@ -259,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18439B81283DB87000F45FE5 /* RSUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +438,7 @@
 		18439B4B283CE90100F45FE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -452,6 +458,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -460,6 +467,7 @@
 		18439B4C283CE90100F45FE5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -487,6 +495,7 @@
 		18439B4E283CE90100F45FE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -502,6 +511,7 @@
 		18439B4F283CE90100F45FE5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
